@@ -163,6 +163,9 @@
     position: relative;
     border-radius: 4px;
 }
+/* ----------------------------------------------------------------
+    feature border box hover
+-----------------------------------------------------------------*/
 
 .feature-border-box,
 .feature-border-box:hover .icon {
@@ -170,6 +173,18 @@
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
+
+.featured-item.feature-border-box:hover {
+    border: 1px solid #7e7e7e;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* ----------------------------------------------------------------
+    feature border box hover
+-----------------------------------------------------------------*/
 
 .feature-border-box .icon {
     position: absolute;

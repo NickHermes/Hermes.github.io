@@ -1,4 +1,12 @@
 
+.career-box .icon {
+    padding:0 0 30px 0;
+}
+
+.career-box .icon i{
+    font-size: 36px;
+}
+
 .career-list {
     position: relative;
 }
@@ -15,7 +23,7 @@
 .career-box .icon {
     position: absolute;
     top: -30px;
-    left: 5%;
+    left: 30px;
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -26,10 +34,35 @@
 }
 
 .career-box .icon i {
-    color: #fff;
+    color: red;
     font-size: 30px;
     line-height: 60px;
 }
+
+
+
+/* ----------------------------------------------------------------
+    feature border box hover
+-----------------------------------------------------------------*/
+
+.career-box,
+.career-box:hover .icon {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.career-box:hover {
+    border: 1px solid #7e7e7e;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* ----------------------------------------------------------------
+    feature border box hover
+-----------------------------------------------------------------*/
 
 a.show-detail {
     margin-top: 30px;
