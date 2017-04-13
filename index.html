@@ -138,7 +138,7 @@
         <!--body content start-->
         <section class="body-content" >
 
-<!--facts-->
+<!--facts danger-->
 
            <!--feature-->
             <div id="start" class="page-content">
@@ -154,41 +154,53 @@
                                     </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="featured-item feature-border-box text-left wow fadeInLeft">
+                            <div class="featured-item feature-border-box text-left wow fadeInLeft" onclick="showDiv1()">
                                 <div class="icon">
                                     <i class="icon-ecommerce_graph_increase"></i>
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h1 class="timer" data-from="0" data-to="211" data-speed="2000" style="display: inline"></h1>
-                                    <h1 style="display: inline">%</h1>
-                                    <h4 style="display: inline">Increase of return</h4>
+                                    <h1 style="display: inline">1</h1>
+                                    <h4 style="display: inline">out of</h4>
+                                    <h1 class="timer" data-from="0" data-to="8" data-speed="1500" style="display: inline"></h1>
+                                    <h4 style="display: inline">Survival Rate</h4>
                                 </div>
-                                <div class="desc" style="text-align: justify">
-                                     Companies that started developing solutions from the outside rather than inside outside, with a design-centric perspective have been shown to get a 10 year returns yielding of 2.11 times compared to traditional corporations. 
-                                     <sup><a href="#fn1" id="ref1">1</a></sup>
+                                 <div class="desc" style="text-align: justify" style="cursor: pointer; cursor;">
+                                    Only 60 out of 500 corporations from the fortune 500 from 1955 is still as leading as it was <sup><a href="#fn2" id="ref2">2</a></sup>. Even more so, as can be seen in the graph below <sup><a href="#fn3" id="ref3">3</a></sup>, the expected lifetime of a company is projected to be only 18 year in 2027<sup><a href="#fn4" id="ref4">4</a></sup>.
+                                </div>
+                                 <div id="graph1" style="display: none">
+                                <div class="divider d-border d-solid d-single text-center">
+                            <i class="fa fa-ellipsis-h"></i>
+                             </div>
+                                <img src="img/parallax/graph_le.gif" alt="" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
+                                </div>
+                                <div>
+                                    </br><h4 class="text-uppercase text-center" style="cursor: pointer; cursor;"><a> Click to Visualise </a></h4>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <div class="featured-item feature-border-box text-left wow fadeInRight">
+                            <div class="featured-item feature-border-box text-left wow fadeInRight" onclick="showDiv2()">
                                 <div class="icon">
                                     <i class="icon-skull"></i>
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h1 style="display: inline">1</h1>
-                                    <h4 style="display: inline">out of</h4>
-                                    <h1 class="timer" data-from="0" data-to="8" data-speed="1000" style="display: inline"></h1>
-                                    <h4 style="display: inline">Survival Rate</h4>
+                                    <h4 style="display: inline">overestimating demand</h4>
+                                    <h1 class="timer" data-from="0" data-to="35" data-speed="2500" style="display: inline"></h1>
+                                    <h1 style="display: inline">%</h1>
                                 </div>
-                                <div class="desc" style="text-align: justify">
-                                    Only 60 out of 500 corporations from the fortune 500 from 1955 is still as leading as it was <sup><a href="#fn2" id="ref2">2</a></sup>. Even more so, as can be seen in the graph below <sup><a href="#fn3" id="ref3">3</a></sup>, the expected lifetime of a company is projected to be only 18 year in 2027<sup><a href="#fn4" id="ref4">4</a></sup>. 
+                                <div class="desc" style="text-align: justify" style="cursor: pointer; cursor;">
+                                    Because of the so called "Bullwhip Effect", a demand of ↑5% on consumer level may be interpreted by the supply chains as a change in demand of up to ↑40%.
+                                    Distorted information from one end of a supply chain to the other can lead to tremendous inefficiencies: excessive inventory investment, poor customer service, lost revenues, misguided capacity plans, ineffective transportation, and missed production schedules<sup><a href="#fn5" id="ref5">5</a></sup>.
                                 </div>
-                                <div>
+                                <div id="graph2" style="display: none">
                                 <div class="divider d-border d-solid d-single text-center">
                             <i class="fa fa-ellipsis-h"></i>
                              </div>
-                                <img src="img/parallax/graph_le.png" alt="" style="width: 100%; display: block; margin-left: auto; margin-right: auto;" id="theImage">
+                                <img src="img/parallax/graph_bw.gif" alt="" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
+                                </div>
+                                 <div>
+                                    </br><h4 class="text-uppercase text-center" style="cursor: pointer; cursor;"><a> Click to Visualise </a></h4>
                                 </div>
                             </div>
                         </div>
@@ -197,9 +209,7 @@
                 </div>
             </div>
             <!--feature-->
-                        <!--facts-->
-
-       
+                        <!--facts danger-->
 
             <!--Silos (exclamation-triangle)-->
             <div id="start" class="page-content" style="background: #222222">
@@ -261,13 +271,52 @@
 
              <!--Silos-->
 
+             <!--facts good-->
+
+           <!--feature-->
+            <div id="start" class="page-content">
+                <div class="container">
+                    <!--feature border box start-->
+                    <div class="row">
+                        <div class="col-md-12 featured-item feature-border-box text-left" onclick="showDiv3()">
+                        <div class="icon">
+                                    <i class="icon-ecommerce_graph_increase"></i>
+                                </div>
+                            <div class="col-md-6">
+                                <div class="title text-uppercase">
+                                    <h1 class="timer" data-from="0" data-to="211" data-speed="2000" style="display: inline"></h1>
+                                    <h1 style="display: inline">%</h1>
+                                    <h4 style="display: inline">Increase of return</h4>
+                                </div>
+                                <div class="desc" style="text-align: justify">
+                                     Companies that started developing solutions from the outside rather than inside outside, with a design-centric perspective have been shown to get a 10 year returns yielding of 2.11 times compared to traditional corporations. 
+                                     <sup><a href="#fn1" id="ref1">1</a></sup>
+                                </div>
+                                 <div>
+                                   </br> <h4 class="text-uppercase text-center" style="cursor: pointer; cursor;"><a> Click to Visualise </a></h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 fadeInLeft" id="graph3" style="display: none">  
+                            <img src="img/parallax/graph_vi.gif" alt="" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--feature border box end-->
+                </div>
+            </div>
+            <!--feature-->
+                        <!--facts good-->
+
             <!--core process-->
             <div class="page-content" id="feature">
                 <div class="container">
                     <div class="row">
                         <div class="heading-title text-center ">
                             <h1 class="text-uppercase">core process</h1>
-                            <p class="half-txt p-top-30" >My core value is to help industries which are not creative in essence, but have a need for innovation. By using working with a design intervention s a core process, I am able to make intangible problems tangible, create support for the solution and implementing innovations that last.</p>
+                            <p class="half-txt p-top-30" >My core value is to help industries which are not creative in essence, but have a need for innovation. Hereby my task is to revitalize their innovation strategy, through design. By using working with a design intervention s a core process, I am able to make intangible problems tangible, create support for the solution and implementing innovations that last.
+
+                            The challenge of bringing design thinking such as, human-centredness, experience & emotions to the core of their innovation strategy and products<sup><a href="#fn6" id="ref6">6</a></sup>. </p>
                         </div>
                          <div class="col-md-12">
                             <!--time line-->
@@ -297,7 +346,7 @@
                                                  <span class="timeline-date">Step 1</span>
                                                  <div class="text-left m-bot-50 wow fadeInRight" style="margin-left: -15px; margin-top: -15px">
                                     <h2 style="display:inline"> 01 </h2> 
-                                    <h4 class="title text-uppercase" style="display:inline">Preparing</h4>
+                                    <h4 class="title text-uppercase" style="display:inline">Preparing the Ground</h4>
                                     </br>
                                     <font style="color:rgb(242,103,33)">planning the intervention</font>
                                             </div>
@@ -308,20 +357,20 @@
                             <dt>
                                 <a class="wow fadeDown" href="">Framing the Problem</a>
                             </dt>
-                            <dd>
-                                The preparation phase is about planning the intervention. This is about framing the problem, mapping the company and mobilising the stakeholders.
+                            <dd style="text-align: justify">
+                                With a strategic design intervention, the impact on the corporation is broad. It will have an impact on the offer of the company, how the company works, and even for its vision and culture. This all is taken into account and a planning for the necessary structural and cultural changes are made. 
                             </dd>
                             <dt>
                                 <a class="wow fadeInDown" href="">Mapping the Company</a>
                             </dt>
-                            <dd>
-                                The preparation phase is about planning the intervention. This is about framing the problem, mapping the company and mobilising the stakeholders.
+                            <dd style="text-align: justify">
+                                It is about understanding the company and its real challenges in order to plan the fitting innovation solution. 
                             </dd>
                             <dt>
                                 <a class="wow fadeInDown" href="">Mobilising Stakeholders</a>
                             </dt>
-                            <dd>
-                                Text
+                            <dd style="text-align: justify">
+                                Especially within a value chain, it is essential to identify the important stakeholders, involve them in the process, and prepare them to work with a design approach to innovation. 
                             </dd>
                         </dl>
                         <!-- accordion time line end-->
@@ -361,20 +410,20 @@
                             <dt>
                                 <a class="wow fadeInDown" href="">Managing the Process</a>
                             </dt>
-                            <dd>
-                                text
+                            <dd style="text-align: justify">
+                                It is important to choose the right toold and methods for the task. Each problem might require different approaches, but in a B2B setting the end-consumer should always be the underlying theme.
                             </dd>
                             <dt>
                                 <a class="wow fadeInDown" href="">Adapting the Tools</a>
                             </dt>
-                            <dd>
-                                Text
+                            <dd style="text-align: justify">
+                                After choosing the right tools and methods, it is important to adapt the tools so they fit the problem. 
                             </dd>
                             <dt>
                                 <a class="wow fadeInDown" href="">Involving the Stakeholders</a>
                             </dt>
-                            <dd>
-                                Text
+                            <dd style="text-align: justify">
+                                In order to co-create the outcome, the chosen tools and methods should be used together with the main stakeholders. It is important to involve them in order to create acceptance and commitment for the design approach. 
                             </dd>
                         </dl>
                         <!-- accordion time line end-->
@@ -427,7 +476,7 @@
                                 <a class="wow fadeInDown" href="">Create Acceptance</a>
                             </dt>
                             <dd>
-                                Text
+                                It is important to make sure that the strategic work that is executed is really adopted by the company in the long term.
                             </dd>
                         </dl>
                         <!-- accordion time line end-->
@@ -691,6 +740,12 @@
                               <sup id="fn4">4] Perkin, N. (2017, April). Is the Life Expectancy of Companies Really Shrinking? Retrieved April 02, 2017, 
                               from http://www.onlydeadfish.co.uk/only_dead_fish/2015/09/is-the-life-expectancy-of-companies-really-shrinking.html<a href="#ref4" title="Jump back to footnote 4 in the text.">↩</a></br></sup>
                               <!--Bron-->
+                               <!--Bron-->
+                              <sup id="fn5">5]  Lee, H. L., Padmanabhan, V., & Whang, S. (1997). The bullwhip effect in supply chains. Sloan management review, 38(3), 93<a href="#ref5" title="Jump back to footnote 5 in the text.">↩</a></br></sup>
+                              <!--Bron-->
+                               <!--Bron-->
+                              <sup id="fn6">6]  Calabretta, G., Gemser, G., & Karpen, I. (2016). Strategic design: eight essential practices every strategic designer must master. Amsterdam: BIS<a href="#ref6" title="Jump back to footnote 6 in the text.">↩</a></br></sup>
+                              <!--Bron-->
                         </div> </div> </br></br>
         <!--body content end-->
 
@@ -739,12 +794,28 @@
     <!--common scripts-->
     <script src="js/scripts.js?6"></script>
 
+  <!--Graph-->
+ <script>
+     function showDiv2() {
+   document.getElementById('graph2').style.display = "block"; }
+   </script>
+    <script>
+     function showDiv1() {
+   document.getElementById('graph1').style.display = "block"; }
+   </script>
+      <script>
+     function showDiv3() {
+   document.getElementById('graph3').style.display = "block"; }
+   </script>
+    <!--Graph-->
 
+     <!--Picture Change-->
      <script>
      function pictureChange()
      { document.getElementById("theImage").src="img/parallax/silo_solution.png"; }
      </script>
-
+     <!--Picture Change-->
+ <!--Use Case-->
      <script type="text/javascript">
      $('#btnClick').on('click',function(){
     if($('#1').css('display')!='none'){
@@ -753,8 +824,8 @@
         $('#1').show().siblings('div').hide();
     }
 });
-         
      </script>
+      <!--Use Case-->
 
 
 
